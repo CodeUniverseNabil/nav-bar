@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: black;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            text-align: center;
+            flex: 1;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 15px 0;
+            color: aliceblue;
+            text-decoration: none;
+            /* transition: 0.3s; */
+
+        }
+                .home{ background: #e74c3c; }
+        .about{ background: #3498db; }
+        .services{ background: #2ecc71; }
+        .blog{ background: #f1c40f; }
+        .contact{ background: #937e9c; }
+        nav ul li:hover{
+            opacity: 0.85;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="about"><a href="#">About</a></li>
+            <li class="services"><a href="#">Services</a></li>
+            <li class="blog"><a href="#">Blog</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+        </ul>
+    </nav>
+</body>
+
+</html>
